@@ -32,10 +32,6 @@ local function checkassetversion()
 	end
 end
 
-if not (getasset and requestfunc and queueteleport) then
-	print("Vape not supported with your exploit.")
-	return
-end
 
 if shared.VapeExecuted then
 	error("Vape Already Injected")
